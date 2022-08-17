@@ -12,4 +12,9 @@
             wp_body_open(); 
         } 
     ?>
-    <header>This is header</header>
+<div id="site">
+    <header id="nav-bar" class="navigation">
+        <?php get_template_part('template-parts/header/nav-bar') ?>
+    </header>
+    <div id="content">
+
